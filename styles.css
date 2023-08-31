@@ -1,0 +1,56 @@
+* {
+    background-color: rgb(255, 251, 241);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* text-indent: 50px; */
+    /* margin: 50px; */
+    padding: auto;
+}
+
+.container {
+    position: relative;
+  }
+
+.title#home-page {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: rgb(15, 8, 54);
+    font-weight: bold;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 92px;
+    background-color: transparent;
+
+}
+
+.description {
+    font-family:'Fauna One', serif;
+    font-size:30px;
+    
+}
+
+.subtitle {
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    /* display: inline-block;  */
+    /* background-color: rgb(77, 66, 12);
+    color: rgba(255, 255, 255, 0.955) */
+}
+
+.image {
+    height: 764px;
+    width: 1400px;
+    /* opacity: 80%; */
+
+}
+.link-btn {
+    text-decoration:none;
+    padding: 0.5rem;
+    border: 1px solid #333333;
+}
+.title#recipe {
+    text-align: center;
+    font-size: 90px;
+}
