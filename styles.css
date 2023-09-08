@@ -1,56 +1,87 @@
-* {
-    background-color: rgb(255, 251, 241);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    /* text-indent: 50px; */
-    /* margin: 50px; */
-    padding: auto;
-}
-
-.container {
-    position: relative;
+body {
+    background: #ffffff;
+    font-family: sans-serif;
   }
-
-.title#home-page {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    color: rgb(15, 8, 54);
-    font-weight: bold;
-    text-align: center;
-    font-family: "Cinzel", serif;
-    font-size: 92px;
-    background-color: transparent;
-
+.site-container {
+    margin: 0px;
+    box-sizing:border-box;
+    display:block;
+    text-align: justify;
 }
-
-.description {
+.page-container {
+    font-family:"Roboto Slab", "Helvetica Neue", sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+}
+.recipe-page-container {
+    font-family:"Roboto Slab", "Helvetica Neue", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+}
+.site-header {
+    box-sizing: border-box;
+    padding: 17px 0;
+    max-width:1040px;
+    margin: 0 auto;
+}
+.recipe-site-header {
+    box-sizing: border-box;
+    padding: 17px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.page-logo{
+    display:inline-block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-width: 300px;
+    height: auto;
+}
+.title {
+    margin:0px;
+    display:inline-block;
+    font-size: 60px;
+}
+.recipe-title {
+    display: block;
+    font-size: 40px;
+}
+.about-me {
+    width: 70%;
+    margin: 24px auto;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family:'Fauna One', serif;
-    font-size:30px;
-    
+    font-size:24px; 
 }
-
-.subtitle {
+.sections-container{
+    width: 70%;
+    margin: 16px auto;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: "Cinzel", serif;
-    font-weight: bold;
-    font-size: 50px;
-    text-decoration: underline;
-    /* display: inline-block;  */
-    /* background-color: rgb(77, 66, 12);
-    color: rgba(255, 255, 255, 0.955) */
+    font-size: 16px;
 }
-
-.image {
-    height: 764px;
-    width: 1400px;
-    /* opacity: 80%; */
-
+.popular-recipes{
+    display:block;
 }
 .link-btn {
+    display:inline-block;
     text-decoration:none;
     padding: 0.5rem;
     border: 1px solid #333333;
+} 
+.subtitle {
+    text-decoration: underline dotted rgb(54, 136, 22);
 }
-.title#recipe {
-    text-align: center;
-    font-size: 90px;
+.img{
+    display: block;
+    max-width: 300px;
+    height: auto;
 }
